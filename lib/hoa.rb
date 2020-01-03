@@ -11,7 +11,7 @@ def add_character(show, name)
   :third_earthers => ["Lion-O", "Cheetara", "Mumm-Ra (the ever-living)"],
   :jetsons => ["George", "Jane", "Judy", "Elroy"]
 }
-  BASE_HOA[show] << "name"
+  BASE_HOA[:show] << "name"
   BASE_HOA
   # Write your implementation here
   # Should return the array of the 'show' argument
